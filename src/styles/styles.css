@@ -78,6 +78,9 @@ body {
   color: #FFF;
   font-size: 18px; }
 
+html {
+  scroll-behavior: smooth; }
+
 * {
   padding: 0;
   margin: 0;
