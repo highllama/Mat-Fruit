@@ -1,0 +1,26 @@
+.objetives {
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .objetivesInfo {
+        padding-left: 2em;
+    }
+
+    h4 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    p {
+        opacity: .7;
+    }
+
+    i {
+        font-size: 415px;
+    }
+}

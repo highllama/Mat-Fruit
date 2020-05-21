@@ -1,0 +1,56 @@
+main {
+    overflow: hidden;
+    background-color: #000;
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .heroInfo {
+            max-width: 38%;
+
+            h1 {
+                font-size: 3.25rem;
+            }
+
+            p {
+                margin-top: 1em;
+                opacity: .8;
+            }
+
+            button {
+                margin-top: 1.25em;
+
+                a {
+                    color: #000;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                i {
+                    padding-right: .25em;
+                }
+            }
+        }
+
+
+        .heroImage {
+            width: 78%;
+            margin-left: 5em;
+            position: relative;
+            right: -50px;
+
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    height: 80vh;
+
+}

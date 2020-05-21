@@ -1,0 +1,54 @@
+@import "header";
+@import "hero";
+@import "objetives.scss";
+
+:root {
+    background-color: #141414;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.raleway700 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: .5em 1em;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition: all ease .5s;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #000;
+        color: #FFF;
+        transform: scale(1.1);
+        transition: ease all .2s;
+    }
+}
