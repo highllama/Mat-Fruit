@@ -1,0 +1,11 @@
+.youtubeVideo {
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em;
+
+    iframe {
+        box-shadow: 10px 10px 15px 10px black;
+    }
+}
